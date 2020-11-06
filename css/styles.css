@@ -1,0 +1,72 @@
+:root {
+    --colorP1: #F47920;
+    --colorP2:  #005883;
+    --backgroundP:#E5E5E5;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background);
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
+    font-size: 1.05em;
+}
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--colorP2);
+    color: #FFFFFF;  
+}
+/*logo*/
+.logo{
+    max-width: 100%;
+    width: 250px;
+    padding: .2em;
+}
+/*menu*/
+.menu{
+    display: flex;
+    padding: .2em;
+}
+.menu-list {
+    padding: 0;
+}
+.menu-item{
+    display: inline;
+}
+.menu-link {
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+    padding-right: 1em;
+}
+.menu-link:hover {
+    border-bottom: 4px solid var(--colorP1);
+}
+.subtitle {
+    color:  #F47920;
+}
+img {
+    max-width: 100%;
+    width: 520px;
+    padding-top: .8em;
+    display: block;
+    margin: .5em;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+aside {
+    width: 200px;
+}
+
+/*footer*/
+.footer {
+    background-color: var(--colorP2);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1em;
+    width: 100%;
+}

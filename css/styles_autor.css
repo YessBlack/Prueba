@@ -1,0 +1,38 @@
+/*Datos*/
+.profile {
+    margin: .5em;
+}
+.profile img {
+    max-width: 100%;
+    width: 220px;
+    padding-top: .8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.data {
+    margin-top: 1em;
+    text-align: center;
+}
+.pBold {
+    font-weight: bold;
+}
+.buttonOVI {
+    /*background-color: #E5A638;
+    border: 2px solid #E5A638;*/
+    background-color: var(--background-color1);
+    border: 2px solid #F47920;
+    color: #1A252D;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    max-width: 60%;
+    width: 215px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttonOVI:hover {
+    background-color: #E5E5E5;
+    border: 2px solid var(--background-color1);
+}
